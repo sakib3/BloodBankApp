@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      <ion-icon name="water" color="danger"></ion-icon>
+      <span class="home-secondary">Bank</span>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="home-ion-content">
+  <div padding>
+    <button ion-button block (click)='beADonor()'>Be A Donor</button>
+  </div>
+  <div padding>
+    <button ion-button block (click)='needADonor()'>Need A Donor</button>
+  </div>
+  <ion-card class="home-ion-card">
+    <ion-card-header>
+      Why?
+    </ion-card-header>
+    <ion-card-content>
+      Donate <ion-icon danger name="water"></ion-icon> To Save <ion-icon secondary name="heart"></ion-icon>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
